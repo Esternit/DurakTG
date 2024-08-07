@@ -1,0 +1,83 @@
+.profile_card {
+  background: linear-gradient(90deg, rgba(29,48,60,1) 0%, rgba(35,89,117,1) 100%);
+  width: 98%;
+  height: 100%;
+  margin: 1%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 5%;
+}
+
+.column {
+  display: grid;
+  grid-template-rows: 70% 30%;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 50%;
+  justify-self: center;
+  object-fit: cover;
+  height: max-content;
+
+
+}
+
+.border {
+  justify-self: center;
+  // margin-left:15%;
+  margin-top: 15%;
+  display: grid;
+  border-image: url('/assets/frame_exmp.png') 40 fill stretch;
+  border-image-outset: 10px;
+  height: fit-content;
+}
+
+.btn {
+  border-radius: 15% / 40%;
+  margin: 10%;
+  margin-bottom: 20%;
+  background-color: var(--btn-color);
+  color: var(--font-color);
+  border: none;
+  height: 6vw
+}
+
+.player_info {
+  color: var(--font-color);
+
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.player_info p {
+  font-size: 12px;
+  margin: 3px;
+}
+
+.funds img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.funds p {
+  color: var(--font-color);
+  font-size: 15px;
+  display: grid;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.funds .usd {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background: -webkit-linear-gradient(90deg, #C09142, #FBE1B4);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.funds div {
+  display: flex;
+  margin-top: 8%;
+}

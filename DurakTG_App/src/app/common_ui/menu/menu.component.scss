@@ -1,0 +1,79 @@
+.menu_bar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 2%;
+  // position: absolute;
+  // bottom: 0;
+  border-radius: 10%;
+  width: 96%;
+  height: 82px;
+  background-color: var(--menu-back-color);
+}
+
+.main_page {
+  background-color: var(--back-color);
+  background-size:100% 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(1, 2fr);
+
+}
+
+
+.menu_button_menu {
+  background-image: url('/assets/menu_menu.png') ;
+  background-size: 100% 100%;
+  background-color: transparent;
+  border: none;
+
+  margin: 3px;
+  width: 100%;
+  height: 90%;
+}
+
+.menu_button_games {
+  background-image: url('/assets/games_menu.png') ;
+  background-size: 100% 100%;
+  background-color: transparent;
+  border: none;
+
+  margin: 3px;
+  width: 100%;
+  height: 90%;
+}
+
+.menu_button_profile {
+  background-image: url('/assets/profile_menu.png') ;
+  background-size: 100% 100%;
+  background-color: transparent;
+  border: none;
+
+  margin: 5px;
+  width: 100%;
+  height: 90%;
+}
+
+.menu_button_earn {
+  background-image: url('/assets/earn_menu.png');
+  background-size: 40% 40%;
+  background-color: transparent;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+  margin: 3px;
+  width: 100%;
+  height: 90%;
+}
+
+.menu_button_market {
+  background-image: url('/assets/market_menu.png') ;
+  background-size: 100% 100%;
+  background-color: transparent;
+  border: none;
+
+  margin: 3px;
+  width: 100%;
+  height: 90%;
+}
