@@ -1,0 +1,98 @@
+.profile_card {
+  background: linear-gradient(45deg, rgba(66, 77, 128, 0.9) 0%, rgba(114, 123, 255, 0.9) 33%,  rgba(119, 138, 230, 0.9) 66%,  rgba(121, 176, 255, 0.9) 100%);
+  width: 96%;
+  height: fit-content;
+  margin: 2%;
+  display: grid;
+  grid-template-columns: 50% 25% 15% 10%;
+  border-radius: 5% / 10%;
+  min-height: 100px;
+}
+
+.column1 {
+  margin-left: 5%;
+}
+
+.title {
+  height: fit-content;
+  display: table;
+  margin-top: 15%;
+  margin-bottom: 0;
+  color: var(--font-color);
+  font-size: 30px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.column {
+  display: grid;
+  grid-template-rows: auto auto;
+  overflow-y: hidden;
+  overflow-x: visible;
+}
+
+.column2 {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.advert {
+  margin-top: 5px;
+  color: #E1E1E1;
+  font-size: 15px;
+}
+
+.percentage {
+  width: 100%;
+  background-color: var(--btn-color);
+  height: fit-content;
+  color: var(--font-color);
+  margin-top: 20%;
+  border-radius: 15% / 20%;
+}
+
+.percentage p {
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 550;
+}
+
+.star {
+  display: grid;
+  width: 25px;
+  height: 25px;
+  justify-self: right;
+  margin-right: 15%;
+  transform: rotate(-20deg);
+}
+
+.star1 {
+  display: grid;
+  width: 20px;
+  height: 20px;
+  justify-self: left;
+  margin-top: 40%;
+  margin-left: -50%;
+
+}
+
+.star2 {
+  display: grid;
+  margin-top: 20%;
+  z-index: 3;
+  width: 30px;
+  height: 30px;
+  justify-self: left;
+  margin-left: -10%;
+  transform: rotate(20deg);
+}
+
+.card {
+  height: 80px;
+  width: auto;
+  margin-left: -35%;
+  margin-top: 30%;
+  margin-bottom: -90%;
+  overflow-y:unset;
+}

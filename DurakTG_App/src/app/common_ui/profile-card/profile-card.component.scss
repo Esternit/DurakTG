@@ -1,11 +1,11 @@
 .profile_card {
   background: linear-gradient(90deg, rgba(29,48,60,1) 0%, rgba(35,89,117,1) 100%);
-  width: 98%;
-  height: 100%;
-  margin: 1%;
+  width: 96%;
+  height: 96%;
+  margin: 2%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border-radius: 5%;
+  border-radius: 5% / 10%;
 }
 
 .column {
@@ -36,7 +36,7 @@
 .btn {
   border-radius: 15% / 40%;
   margin: 10%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   background-color: var(--btn-color);
   color: var(--font-color);
   border: none;
