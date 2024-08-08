@@ -2,21 +2,20 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin: 2%;
-  // position: absolute;
-  // bottom: 0;
+  margin-bottom: 2%;
   border-radius: 10% / 25%;
   width: 96%;
   height: 82px;
   background-color: var(--menu-back-color);
+
 }
 
 .main_page {
   background-color: var(--back-color);
   background-size:100% 100%;
-  height: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr;
-
+  grid-template-rows: auto auto;
+  height: 100%;
 }
 
 

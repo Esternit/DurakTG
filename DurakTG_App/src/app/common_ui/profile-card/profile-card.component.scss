@@ -1,11 +1,12 @@
 .profile_card {
   background: linear-gradient(90deg, rgba(29,48,60,1) 0%, rgba(35,89,117,1) 100%);
   width: 96%;
-  height: 96%;
+  height: fit-content;
   margin: 2%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 5% / 10%;
+
 }
 
 .column {
