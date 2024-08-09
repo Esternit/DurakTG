@@ -1,0 +1,37 @@
+.layout {
+  display: grid;
+  grid-template-columns: 35% 45% 10% 10%;
+  height: fit-content;
+  width: 96%;
+  margin: 2%;
+}
+
+.title {
+  color: var(--font-color);
+  font-size: 8vw;
+  margin-left: 15px;
+}
+
+.create {
+  background-color: var(--help-grey-color);
+  width: 90%;
+  margin: 0 5%;
+  border: none;
+  border-radius: 5% / 30%;
+  font-size: 4vw;
+  font-weight: 550;
+}
+
+.search {
+  background-image: url('/assets/games_page/search.png');
+  background-size: 100% 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.filter {
+  background-image: url('/assets/games_page/filters.png');
+  background-size: 100% 100%;
+  background-color: transparent;
+  border: none;
+}
