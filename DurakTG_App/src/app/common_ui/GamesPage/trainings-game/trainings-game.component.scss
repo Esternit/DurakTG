@@ -1,0 +1,49 @@
+.layout {
+  background-color: var(--trainings-color);
+  width: 96%;
+  height: fit-content;
+  margin: 2%;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  border-radius: 5% / 10%;
+  min-height: 80px;
+}
+
+.column {
+  margin: 2% 5% 2% 9%;
+}
+
+.column1 {
+  display: grid;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+.title {
+  height: fit-content;
+  display: table;
+  margin-bottom: 0;
+
+  color: var(--font-color);
+  font-size: 30px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.advert {
+  //margin-top: 5%;
+  color: #000000;
+  font-size: 30px;
+
+}
+
+
+.cards {
+  height: 120px;
+  // width: 100%;
+  object-fit: cover;
+  margin-top: 5px;
+  margin-bottom: -100px;
+  margin-left: 1%;
+}

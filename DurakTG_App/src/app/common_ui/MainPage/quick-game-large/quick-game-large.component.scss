@@ -1,0 +1,48 @@
+.layout {
+  background-color: var(--quick-game-color);
+  width: 96%;
+  height: fit-content;
+  margin: 2%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  border-radius: 5% / 10%;
+  min-height: 100px;
+}
+
+.column {
+  margin: 10% 5%;
+}
+
+.column1 {
+  display: grid;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+.title {
+  height: fit-content;
+  display: table;
+  margin-bottom: 0;
+  color: var(--font-color);
+  font-size: 30px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.advert {
+  margin-top: 5px;
+  color: #000000;
+  font-size: 30px;
+
+}
+
+
+.cards {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 5px;
+  margin-bottom: -80px;
+  margin-left: 1%;
+}

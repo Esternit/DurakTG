@@ -1,16 +1,16 @@
 .layout {
-  background-color: var(--quick-game-color);
+  background-color: var(--tourneys-color);
   width: 96%;
   height: fit-content;
   margin: 2%;
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 65% 35%;
   border-radius: 5% / 10%;
-  min-height: 100px;
+  min-height: 80px;
 }
 
 .column {
-  margin: 10% 5%;
+  margin: 2% 5% 2% 9%;
 }
 
 .column1 {
@@ -24,6 +24,7 @@
   height: fit-content;
   display: table;
   margin-bottom: 0;
+
   color: var(--font-color);
   font-size: 30px;
   font-weight: 500;
@@ -31,7 +32,7 @@
 }
 
 .advert {
-  margin-top: 5px;
+  //margin-top: 5%;
   color: #000000;
   font-size: 30px;
 
@@ -39,10 +40,10 @@
 
 
 .cards {
-  height: 230px;
-  width: 100%;
+  height: 120px;
+  // width: 100%;
   object-fit: cover;
-  margin-top: -25px;
-  margin-bottom: -80px;
+  margin-top: 5px;
+  margin-bottom: -100px;
   margin-left: 1%;
 }
