@@ -1,7 +1,7 @@
 import {Telegraf, Markup} from 'telegraf'
 
 const token = '7211266947:AAEcKAWwmNjUNnwUdBcHKP7A37Lc9ommMbo'
-const webAppUrl = 'https://google.com/' //подставить url сайта
+const webAppUrl = 'https://duraktg-app.web.app/'
 
 const bot = new Telegraf(token)
 
