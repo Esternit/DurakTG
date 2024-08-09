@@ -14,8 +14,9 @@
   background-color: var(--back-color);
   background-size:100% 100%;
   display: grid;
-  grid-template-rows: auto auto;
-  height: 100%;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  gap: auto;
 }
 
 
