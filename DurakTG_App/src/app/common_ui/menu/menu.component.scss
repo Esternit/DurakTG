@@ -14,9 +14,29 @@
   background-color: var(--back-color);
   background-size:100% 100%;
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: 1fr auto;
   height: 100vh;
   gap: auto;
+}
+
+p {
+  color: var(--font-color);
+  font-size: 4vw;
+  margin-top: -32%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.profile {
+  margin-top: -35%;
+}
+
+.earn {
+  margin-top: -30%;
+}
+
+.market {
+  margin-top: -31%;
 }
 
 
