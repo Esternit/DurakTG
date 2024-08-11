@@ -25,15 +25,13 @@
 }
 
 .border {
-
   justify-self: center;
   // margin-left:15%;
   margin-top: 15%;
   display: grid;
-  border-image: url('/assets/frame_exmp.png') 40 fill stretch;
+  border-image: url('/assets/profile_card/frame_exmp.png') 40 fill stretch;
   border-image-outset: 10px;
   height: fit-content;
-  width: fit-content;
 }
 
 .btn {
@@ -85,44 +83,43 @@
   margin-top: 8%;
 }
 
-.avatario {
-  box-sizing: border-box;
-  position: relative;
-  border-radius: 50%;
-  margin: 0 auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: auto;
-  box-shadow: inset 0 0 0 2px #4D4F6E;
-}
+// .avatario {
+//   box-sizing: border-box;
+//   position: relative;
+//   border-radius: 50%;
+//   margin-top: 15%;
+//   margin-bottom: auto;
+//   // padding: auto;
+//   // box-shadow: inset 0 0 0 2px #4D4F6E;
+// }
 
-.avatario-large {
-  width: 60%;
-  height: 60%;
-}
+// .avatario-large {
+//   width: 60%;
+//   height: 60%;
+// }
 
-.avatario-image {
-  max-width: 95%;
-  vertical-align: middle;
-  border-radius: 50%;
-}
+// .avatario-image {
+//   max-width: 95%;
+//   border-radius: 50%;
+// }
 
-.avatario-frame {
-  position: absolute;
-  pointer-events: none;
-}
+// .avatario-frame {
+//   position: absolute;
+//   pointer-events: none;
+//   vertical-align: middle;
+// }
 
-.avatario-large .avatario-frame {
-  top: -30%;
-  left: -73%;
-  max-width: 240%;
-}
+// .avatario-large .avatario-frame {
+//   margin-top: 15%;
+//   // left: -73%;
+//   max-width: 240%;
+// }
 
-.animio-spin {
-  animation: spin 20s linear infinite;
-}
-@keyframes spin {
-  100% {
-    transform: rotate(-360deg);
-  }
-}
+// .animio-spin {
+//   animation: spin 20s linear infinite;
+// }
+// @keyframes spin {
+//   100% {
+//     transform: rotate(-360deg);
+//   }
+// }

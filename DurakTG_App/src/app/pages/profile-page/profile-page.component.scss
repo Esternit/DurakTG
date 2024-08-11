@@ -1,0 +1,31 @@
+.layout {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+
+.inventary {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  height: fit-content;
+  margin: 2% 2%;
+  width: 96%;
+}
+
+.object {
+  display: grid;
+  width: 96%;
+  margin: 0 4%;
+  height: 100%;
+  background-color: var(--widget-color);
+  border-radius: 15% / 5%;
+}
+
+img {
+  height: 80%;
+  max-height: 14vh;
+  width: 90%;
+  object-fit: cover;
+  margin: 10% 5% 0 5%;
+  justify-self: center;
+
+}

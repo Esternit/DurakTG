@@ -4,11 +4,26 @@
 
 
   <div class="menu_bar">
-    <button [class]="menuButtonClicked? 'menu_button_menu_active' : 'menu_button_menu'" [routerLink]="['/']" (click)=MenuClick()></button>
-    <button [class]="gamesButtonClicked? 'menu_button_games_active' : 'menu_button_games'"  [routerLink]="['/games']" (click)=GamesClick()></button>
-    <button [class]="profileButtonClicked? 'menu_button_profile_active' : 'menu_button_profile'" [routerLink]="['/profile']" (click)=ProfileClick()></button>
-    <button [class]="earnButtonClicked? 'menu_button_earn_active' : 'menu_button_earn'" [routerLink]="['/earn']" (click)=EarnClick()></button>
-    <button [class]="marketButtonClicked? 'menu_button_market_active' : 'menu_button_market'" [routerLink]="['/market']" (click)=MarketClick()></button>
+    <div>
+      <button [class]="menuButtonClicked? 'menu_button_menu_active' : 'menu_button_menu'" [routerLink]="['/']" (click)=MenuClick()></button>
+      <!-- <p>Menu</p> -->
+    </div>
+    <div>
+      <button [class]="gamesButtonClicked? 'menu_button_games_active' : 'menu_button_games'"  [routerLink]="['/games']" (click)=GamesClick()></button>
+      <!-- <p>Games</p> -->
+    </div>
+    <div>
+      <button [class]="profileButtonClicked? 'menu_button_profile_active' : 'menu_button_profile'" [routerLink]="['/profile']" (click)=ProfileClick()></button>
+      <!-- <p class="profile">Profile</p> -->
+    </div>
+    <div>
+      <button [class]="earnButtonClicked? 'menu_button_earn_active' : 'menu_button_earn'" [routerLink]="['/earn']" (click)=EarnClick()></button>
+      <!-- <p class="earn">Earn</p> -->
+    </div>
+    <div>
+      <button [class]="marketButtonClicked? 'menu_button_market_active' : 'menu_button_market'" [routerLink]="['/market']" (click)=MarketClick()></button>
+      <!-- <p class="market">Market</p> -->
+    </div>
   </div>
 </body>
 
